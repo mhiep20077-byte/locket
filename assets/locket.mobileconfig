@@ -62,9 +62,9 @@
     <key>PayloadDisplayName</key>
     <string>💛 Locket Gold</string>
     <key>PayloadIdentifier</key>
-    <string>com.duyvinh09.locket.vip</string>
+    <string>com.minhhiep08.locket.vip</string>
     <key>PayloadOrganization</key>
-    <string>Đinh Duy Vinh</string>
+    <string>minhhiep08</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
