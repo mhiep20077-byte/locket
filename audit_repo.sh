@@ -13,6 +13,7 @@ FILES=(
   "js/youtube.response.js"
   "assets/LocketGold.mobileconfig"
   "assets/locket.mobileconfig"
+  "assets/gold_welcome.jpg"
 )
 
 echo "=== KIỂM TRA CẤU TRÚC FILE TRÊN REPO hiepn9316-pixel/locket ==="

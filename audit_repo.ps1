@@ -11,7 +11,8 @@ $FILES = @(
   "js/Locket_minhhiep08.js",
   "js/youtube.response.js",
   "assets/LocketGold.mobileconfig",
-  "assets/locket.mobileconfig"
+  "assets/locket.mobileconfig",
+  "assets/gold_welcome.jpg"
 )
 
 Write-Host "=== KIEM TRA CAU TRUC FILE TREN REPO hiepn9316-pixel/locket ===" -ForegroundColor Cyan

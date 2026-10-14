@@ -56,7 +56,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "Nhớ follow tiktok @ltocamz ✨",
                     body: "Một follow của bạn, một niềm vui của mình 💛",
-                    imageURL: "https://i.ibb.co/gZ6HkyWT/L-n-Gold-R-i.png"
+                    imageURL: "https://raw.githubusercontent.com/hiepn9316-pixel/locket/main/assets/gold_welcome.jpg"
                 }
             ],
             primary_button_title: "Xong",
