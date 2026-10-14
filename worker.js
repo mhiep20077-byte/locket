@@ -1,14 +1,6 @@
 /**
  * Cloudflare Worker: Reverse Proxy giấu Repository GitHub
- * 
- * Cách hoạt động:
- * 1. Đăng nhập https://dash.cloudflare.com/ -> Workers & Pages -> Create Worker
- * 2. Dán toàn bộ nội dung file này vào editor của Worker và bấm "Deploy"
- * 3. Lấy đường link Worker (ví dụ: https://locket-vip.ten-ban.workers.dev)
- * 4. Thay vì chia sẻ link raw.githubusercontent.com, bạn chỉ cần chia sẻ link Worker:
- *    https://locket-vip.ten-ban.workers.dev/Locket_YouTube.sgmodule
- * 
- * => Người dùng chỉ thấy domain Cloudflare, hoàn toàn KHÔNG THỂ biết repo hay username GitHub gốc!
+ * Tác giả: @minhhiep08
  */
 
 const GITHUB_BASE = "https://raw.githubusercontent.com/hiepn9316-pixel/locket/main";
@@ -16,6 +8,15 @@ const GITHUB_BASE = "https://raw.githubusercontent.com/hiepn9316-pixel/locket/ma
 export default {
   async fetch(request) {
     const url = new URL(request.url);
+
+    // Trang chủ hiển thị trạng thái hoạt động
+    if (url.pathname === "/" || url.pathname === "") {
+      return new Response("✨ Locket & YouTube VIP Service is Online!", {
+        status: 200,
+        headers: { "Content-Type": "text/plain; charset=utf-8" }
+      });
+    }
+
     const targetUrl = GITHUB_BASE + url.pathname;
 
     const response = await fetch(targetUrl, {
