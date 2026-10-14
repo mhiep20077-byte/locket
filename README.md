@@ -19,17 +19,17 @@ Kho lưu trữ cấu hình và module mở khóa **Locket Gold** & **YouTube Pre
 
 * **Gói tổng hợp (Locket Gold + YouTube Premium):**
   ```text
-  https://raw.githubusercontent.com/hiepn9316-pixel/locket/main/Locket_YouTube.sgmodule
+  https://raw.githubusercontent.com/mhiep20077-byte/locket/main/Locket_YouTube.sgmodule
   ```
 
 * **Gói riêng lẻ (Chỉ Locket Gold):**
   ```text
-  https://raw.githubusercontent.com/hiepn9316-pixel/locket/main/modules/Locket_minhhiep08.sgmodule
+  https://raw.githubusercontent.com/mhiep20077-byte/locket/main/modules/Locket_minhhiep08.sgmodule
   ```
 
 * **Tệp cấu hình hoàn chỉnh (.conf):**
   ```text
-  https://raw.githubusercontent.com/hiepn9316-pixel/locket/main/Locket_YouTube.conf
+  https://raw.githubusercontent.com/mhiep20077-byte/locket/main/Locket_YouTube.conf
   ```
 
 ---

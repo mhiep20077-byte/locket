@@ -3,7 +3,7 @@
  * Tác giả: @minhhiep08
  */
 
-const GITHUB_BASE = "https://raw.githubusercontent.com/hiepn9316-pixel/locket/main";
+const GITHUB_BASE = "https://raw.githubusercontent.com/mhiep20077-byte/locket/main";
 
 export default {
   async fetch(request) {
