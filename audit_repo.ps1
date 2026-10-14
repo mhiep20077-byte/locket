@@ -2,8 +2,8 @@
 $BASE = "https://raw.githubusercontent.com/hiepn9316-pixel/locket/main"
 
 $FILES = @(
-  "All_In_One.sgmodule",
-  "All_In_One.conf",
+  "Locket_YouTube.sgmodule",
+  "Locket_YouTube.conf",
   "Egern_LockGold.yaml",
   "modules/Locket_minhhiep08.sgmodule",
   "js/deleteHeader.js",
@@ -32,7 +32,7 @@ foreach ($f in $FILES) {
 
 Write-Host ""
 Write-Host "=== KIEM TRA LINK NOI BO TRONG MODULE ===" -ForegroundColor Cyan
-$mod_content = curl.exe -s "$BASE/All_In_One.sgmodule"
+$mod_content = curl.exe -s "$BASE/Locket_YouTube.sgmodule"
 
 if ($mod_content -match "duyvinh09") {
   Write-Host "[CANH BAO] CDN van dang luu cache cu cua 'duyvinh09' (se het sau vai phut)!" -ForegroundColor Yellow

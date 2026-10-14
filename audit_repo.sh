@@ -3,8 +3,8 @@
 BASE="https://raw.githubusercontent.com/hiepn9316-pixel/locket/refs/heads/main"
 
 FILES=(
-  "All_In_One.sgmodule"
-  "All_In_One.conf"
+  "Locket_YouTube.sgmodule"
+  "Locket_YouTube.conf"
   "Egern_LockGold.yaml"
   "modules/Locket_minhhiep08.sgmodule"
   "js/deleteHeader.js"
@@ -28,9 +28,9 @@ done
 
 echo ""
 echo "=== KIỂM TRA LINK NỘI BỘ TRONG MODULE ==="
-mod_content=$(curl -s "$BASE/All_In_One.sgmodule")
+mod_content=$(curl -s "$BASE/Locket_YouTube.sgmodule")
 if echo "$mod_content" | grep -q "duyvinh09"; then
-  echo "[LỖI] Vẫn còn sót tên 'duyvinh09' trong All_In_One.sgmodule!"
+  echo "[LỖI] Vẫn còn sót tên 'duyvinh09' trong Locket_YouTube.sgmodule!"
 fi
 if echo "$mod_content" | grep -q "minhhiep08/Module_IOS"; then
   echo "[LỖI] Vẫn còn sót link cũ 'minhhiep08/Module_IOS' thay vì 'hiepn9316-pixel/locket'!"

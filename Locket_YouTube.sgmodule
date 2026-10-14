@@ -1,20 +1,14 @@
-#!name=All In One
-#!desc=Locket Gold & YouTube Premium by minhhiep08
+#!name=Locket & YouTube Premium
+#!desc=Mở khóa Locket Gold & YouTube Premium by minhhiep08
 #!author=minhhiep08
-#!configUrl=https://raw.githubusercontent.com/hiepn9316-pixel/locket/main/All_In_One.conf
+#!moduleUrl=https://raw.githubusercontent.com/hiepn9316-pixel/locket/main/Locket_YouTube.sgmodule
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 #!howtouse=Shadowrocket
 #Shadowrocket Configuration - Locket & YouTube
 
-[General]
-bypass-system = true
-skip-proxy = *.local, *.crashlytics.com
-tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
-
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com),(PROTOCOL,UDP)),REJECT
-FINAL,DIRECT
 
 [Header Rewrite]
 ^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$) header-del x-revenuecat-etag
