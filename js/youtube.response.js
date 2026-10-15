@@ -5197,8 +5197,8 @@
       }
       decodeArgument() {
           let e = {
-              lyricLang: "off",
-              captionLang: "off",
+              lyricLang: "vi",
+              captionLang: "vi",
               blockUpload: !0,
               blockImmersive: !0,
               blockShorts: !1,
